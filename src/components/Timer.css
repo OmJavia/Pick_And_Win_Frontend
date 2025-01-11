@@ -1,0 +1,16 @@
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7); /* Slight transparency for the background */
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  .timer {
+    color: #00ff00; /* Bright green color for the timer text */
+  }

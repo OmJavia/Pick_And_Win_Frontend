@@ -1,0 +1,38 @@
+.footer {
+    background-color: #121212;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .social-icons {
+    margin-bottom: 15px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .store-details,
+  .quick-links {
+    margin-bottom: 25px;
+    line-height: 1;
+  }
+  
+  .quick-links a {
+    margin: 0 10px; /* Margin between links */
+    color: #ff4500; /* Orange color for text */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.quick-links a:hover {
+    color: #ff6347; /* Change to a slightly different shade on hover (optional) */
+}
+.hr {
+    width: 30%; /* Set the width to 80% */
+    margin: 20px auto; /* Center the hr and add vertical spacing */
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc; /* Add a custom top border */
+}

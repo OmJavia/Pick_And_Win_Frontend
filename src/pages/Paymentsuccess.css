@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f6fa;
+  }
+  
+  .payment-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f6fa;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2rem;
+    width: 25%;
+    height: 80%;
+    /* max-width: 300px; */
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #4caf50;
+  }
+  
+  .success-title {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .success-message {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .order-id {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .order-id span {
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  .product-details {
+    text-align: left;
+  }
+  
+  .product-name,
+  .quantity {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .product-name span,
+  .quantity span {
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  .order-more-button {
+    background-color: #0033ff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-more-button:hover {
+    background-color: #45a049;
+  }
+  
+  .order-more-button:focus {
+    outline: none;
+  }
+  

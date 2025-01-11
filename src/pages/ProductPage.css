@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Image Styling */
+.product-image {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Product Info Section */
+.product-info {
+    text-align: center;
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+.product-info p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.ticket-selector {
+    text-align: center;
+}
+
+.ticket-selector h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-circle:hover {
+    transform: scale(1.1);
+}
+
+.ticket-count {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    background-color: #ff4500;
+    border: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff6347;
+}
+
+/* How-to-Play Section */
+.how-to-play-list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.how-to-play-list li {
+    background: rgba(255, 69, 0, 0.1);
+    border: 1px solid rgba(255, 69, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #ccc;
+}

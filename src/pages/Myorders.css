@@ -1,0 +1,46 @@
+/* MyOrders.css */
+
+
+
+.h1, .h2 {
+    color: #ff4500; /* Heading color */
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white for table background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.table th {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque for header */
+    color: black; /* Header text color */
+}
+
+.table td {
+    color: black; /* Table data text color */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05); /* Light gray for odd rows */
+}
+
+.table-striped tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Highlight on hover */
+}
+
+.pagination-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-controls button {
+    margin: 0 5px; /* Spacing between buttons */
+}
+
+/* Style for the dropdown select box */
+select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}

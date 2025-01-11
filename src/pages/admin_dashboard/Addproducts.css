@@ -1,0 +1,71 @@
+/* Add this CSS code to your stylesheet or within a <style> tag */
+.add-products {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #343a40;
+}
+
+h1.text-center {
+  margin-bottom: 20px;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.row .col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row .col label {
+display: flex;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input[type="file"] {
+  display: inline-block;
+  max-width: 300px;
+}
+
+.row .col:last-child {
+  text-align: right; /* Aligns the 'Choose File' input to the right */
+}
+
+.row .col:last-child input[type="file"] {
+  width: auto; /* Adjust file input width */
+}
+
+.form-control {
+  border-radius: 4px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .row .col {
+    text-align: left;
+  }
+
+  input[type="file"] {
+    max-width: 100%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+}
